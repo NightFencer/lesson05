@@ -6,3 +6,8 @@
 # TODO здесь ваш код
 
 
+import room_1, room_2
+
+print('В комнате', room_1.__name__, 'живут:', ','.join(room_1.folks))
+
+print('В комнате', room_2.__name__, 'живут:', ','.join(room_2.folks))
